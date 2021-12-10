@@ -28,7 +28,7 @@ public class Intro_Condicional_Java {
 	}
 	else if(idade>=1 && idade<18)
 	{
-		System.out.printf("\nVocê é menor de idade.");	
+		System.out.printf("\nVocê é menor de idade."][]);	
 	}
 	else
 	{
