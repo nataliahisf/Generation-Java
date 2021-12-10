@@ -34,19 +34,32 @@ public class JavaBlocoI_Cond_Ex2
 		
 		if (valor1 >= valor2 && valor2 >=valor3)
 		{
-			System.out.println("\nA ordem crescente é: " +valor1+ ", " +valor2+ " e " +valor3+ ".");
+			System.out.println("\nA ordem crescente é: " +valor3+ ", " +valor2+ " e " +valor1+ ".");
 		}
 		
-		if (valor1 >= valor3 && valor1 >= valor2)
+		if (valor1 >= valor3 && valor3 >= valor2)
 		{
-			System.out.println("\nA ordem crescente é: " +valor1+", " +valor3+ " e " +valor3+ ".");
+			System.out.println("\nA ordem crescente é: " +valor2+", " +valor3+ " e " +valor1+ ".");
 		}
 		
-		if (valor2 >= valor1 && valor2 >= valor3)
+		if (valor2 >= valor1 && valor1 >= valor3)
 		{	
+			System.out.println("\nA ordem crescente é:" +valor3+ ", " +valor1+ " e " +valor2+ ".");
+		}
+		
+		if (valor2 >=valor3 && valor3 >= valor1)
+		{
+			System.out.println("\nA ordem crescente é:" +valor1+ ", " +valor3+ " e " +valor2+ ".");
+		}
+		
+		if (valor3 >= valor2 && valor2 >= valor1)
+		{
+			System.out.println("\nA ordem crescente é:" +valor1+ ", " +valor2+ " e " +valor3+ ".");
+		}
+		
+		if (valor3 >= valor1 && valor1 >= valor2)
+		{
 			System.out.println("\nA ordem crescente é:" +valor2+ ", " +valor1+ " e " +valor3+ ".");
 		}
-		
-		
 	}
 }
