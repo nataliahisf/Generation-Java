@@ -24,27 +24,33 @@ objeto e apresente as informações deste objeto no console.*/
     	System.out.println("\nO cliente "+nome+" "+sobrenome+", "+idade+" ano(s) de idade.");
     }
 
-	public String getNome() {
+	public String getNome() 
+	{
 		return nome;
 	}
 
-	public void setNome(String nome) {
+	public void setNome(String nome) 
+	{
 		this.nome = nome;
 	}
 
-	public String getSobrenome() {
+	public String getSobrenome() 
+	{
 		return sobrenome;
 	}
 
-	public void setSobrenome(String sobrenome) {
+	public void setSobrenome(String sobrenome) 
+	{
 		this.sobrenome = sobrenome;
 	}
 
-	public String getIdade() {
+	public String getIdade() 
+	{
 		return idade;
 	}
 
-	public void setIdade(String idade) {
+	public void setIdade(String idade) 
+	{
 		this.idade = idade;
 	}
 }
